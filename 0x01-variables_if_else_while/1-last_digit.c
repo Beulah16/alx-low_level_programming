@@ -17,11 +17,11 @@ int main (void)
 	srand (time(0));
 
 	n = rand() - RAND_MAX / 2;
-	digit = n % 10
+	digit = n % 10;
 
 		if (digit == 0)
 		{
-			printf ("Last digitt of %d is %d and is 0\n", n, digit);
+			printf ("Last digit of %d is %d and is 0\n", n, digit);
 		}
 		else if (digit > 5)
 		{
