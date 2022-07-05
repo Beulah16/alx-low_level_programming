@@ -17,17 +17,19 @@ int main(void)
 
 	while (c < 99)
 	{
-		d = (c / 10 + '0');						e = (c % 10 + '0');
+		d = (c / 10 + '0');
+		e = (c % 10 + '0');
 		cc = 0;
-		
 		while (cc < 100)
 		{
 			dd = (cc / 10 + '0');
 			ee = (cc % 10 + '0');
-			
 			if (c < cc)
 			{
-				putchar(d);							putchar(e);							putchar(' ');							putchar(dd);
+				putchar(d);
+				putchar(e);
+				putchar(' ');
+				putchar(dd);
 				putchar(ee);
 
 				if (c != 98)
