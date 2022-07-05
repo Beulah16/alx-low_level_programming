@@ -11,7 +11,7 @@ int main(void)
 	int first;
 	int second = 0;
 
-	while (second <=9)
+	while (second <= 9)
 	{
 		first = 0;
 
