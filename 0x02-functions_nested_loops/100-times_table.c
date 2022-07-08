@@ -2,9 +2,9 @@
 
 /**
  * print_times_table - prints the n times table, starting with 0
- * @n: nimber of the times table
+ * @n: number of the times table
  */
-void print_times_tables(int n)
+void print_times_table(int n)
 {
 	int i, j, k;
 
