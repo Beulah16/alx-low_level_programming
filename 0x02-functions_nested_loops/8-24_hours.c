@@ -2,6 +2,7 @@
 
 /**
  * jack bauer - prints every minute of the day
+ * Description: every minute of the day
  * Return: returns nothintg
  */
 
@@ -16,7 +17,7 @@ void jack_bauer(void)
 	{
 		if (d > 9)
 		{
-			d =0;
+			d = 0;
 			c++;
 		}
 		if (c > 5)
