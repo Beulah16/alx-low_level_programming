@@ -30,7 +30,7 @@ void jack_bauer(void)
 			a++;
 		}
 		if (a == 2 && b > 3)
-			brteak;
+			break;
 		_putchar(a + '0');
 		_putchar(b + '0');
 		_putchar(':');
