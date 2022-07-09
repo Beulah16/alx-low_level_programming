@@ -1,4 +1,4 @@
-nclude "main.h"
+include "main.h"
 
 /**
  * print_triangle - check
@@ -15,6 +15,7 @@ void print_triangle(int size)
 		_putchar('\n');
 	}
 
+	
 	for (i = 1; i <= size; i++)
 	{
 		for (j = i; j <= size; j++)
