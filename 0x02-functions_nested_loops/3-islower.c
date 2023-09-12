@@ -2,6 +2,7 @@
 
 /**
  * _islower - A function
+ *@c - character to be evaluated
  *
  * Return: 1 if true or 0 otherwise
  */
@@ -9,7 +10,7 @@ int _islower(int c)
 {
 	char b = c;
 
-	if(b >= 97 && b <= 122)
+	if (b >= 97 && b <= 122)
 	{
 		return (1);
 	}
