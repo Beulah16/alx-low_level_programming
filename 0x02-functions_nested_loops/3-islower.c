@@ -2,7 +2,7 @@
 
 /**
  * _islower - A function
- *@c - character to be evaluated
+ *@c: character to be evaluated
  *
  * Return: 1 if true or 0 otherwise
  */
