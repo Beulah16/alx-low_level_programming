@@ -1,31 +1,28 @@
 #include "main.h"
-
 /**
- * jack_bauer - A function
+ * jack_bauer - Entry point
  *
- * Return: void
+ * Return:nothing
  */
 void jack_bauer(void)
 {
 	int min;
-	int hr;
+	int hour = 0;
 
-	for (hr = 0; hr < 24; hr++)
+	while (hour <= 23)
 	{
-		for (min = 0; min < 60; min++)
+		min = 0;
+		while (min <= 59)
 		{
-			if (hr <= 9)
-			{
-				_putchar('0');
-			}
-			_putchar(hr + '0');
-			_putchar(':');
-			if (min <= 9)
-			{
-				_putchar('0');
-			}
-			_putchar(min + '0');
-		}
+		_putchar('0' + hour / 10);
+		_putchar('0' + hour % 10);
+		_putchar(':');
+		_putchar('0' + min / 10);
+		_putchar('0' + min % 10);
 		_putchar('\n');
+
+		min++;
+		}
+		hour++;
 	}
 }
