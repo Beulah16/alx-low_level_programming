@@ -14,6 +14,6 @@ int _abs(int c)
 	}
 	else
 	{
-		retuurn (c);
+		return (c);
 	}
 }
