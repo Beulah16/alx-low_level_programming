@@ -5,13 +5,12 @@
  * @a: parameter to be evaluated
  * @b: parameter to be evaluated
  *
- * Return: result
+ * Return: r as the  result
  */
 int mul(int a, int b)
 {
-	int result;
-	
-	result = a * b;
+	int r;
 
-	return (result);
+	r = a * b;
+	return (r);
 }
