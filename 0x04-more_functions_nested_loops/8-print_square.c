@@ -1,33 +1,31 @@
 #include "main.h"
 
 /**
- * print_square - A function
- * @n: parameter to be evaluated
- *
- * Return: void
+ * print_square - print squares
+ * @n: size of the square
+ * Return: Always 0.
  */
+
 void print_square(int n)
 {
+	int m;
 	int i;
-	int j;
 
-	if (n > 0)
-	{
-		i =0;
-		while (i < n)
-		{
-			j = 0;
-			while (j < n)
-			{
-				_putchar('#');
-				j++;
-			}
-			_putchar(' ');
-			i++;
-		}
-	}
-	else
+	m = 0;
+	if (n <= 0)
 	{
 		_putchar('\n');
+	}
+	while (m < n)
+	{
+		i = 0;
+
+		while (i < n)
+		{
+			_putchar('#');
+			i++;
+		}
+		_putchar('\n');
+		m++;
 	}
 }
