@@ -1,5 +1,4 @@
 #include <stdio>
-#include "main.h"
 
 /**
  * main - Entry point
@@ -29,9 +28,10 @@ int main(void)
 			printf("%d", i);
 		}
 		if (i != 100)
-			_putchar(' ');
+			putchar(' ');
 	}
-	_putchar('\n');
+
+	printf('\n');
 
 	return (0);
 }
