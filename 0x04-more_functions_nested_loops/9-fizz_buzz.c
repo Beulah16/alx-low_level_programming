@@ -1,10 +1,10 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: 0 always
+ * main - entry point
+ * Return: always 0
  */
+
 int main(void)
 {
 	int i;
@@ -24,14 +24,14 @@ int main(void)
 			printf("Buzz");
 		}
 		else
-		{
 			printf("%d", i);
-		}
 		if (i != 100)
+		{
 			putchar(' ');
+		}
 	}
 
-	printf('\n');
+	printf("\n");
 
 	return (0);
 }
