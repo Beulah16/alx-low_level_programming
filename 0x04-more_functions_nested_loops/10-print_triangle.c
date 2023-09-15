@@ -1,40 +1,30 @@
 #include "main.h"
 
 /**
- * print_triangle - A function
- * @n - A parameter to be evaluated
- *
+ * print_triangle - check
+ * @size : integer type
  * Return: void
  */
-void print_triangle(int n)
+void print_triangle(int size)
 {
-	int i;
-	int j;
-	int k;
+	int i, j;
 
-	if (n <= 0)
+	if (size <= 0)
 	{
 		_putchar('\n');
 	}
-	else
+
+	for (i = 1; i <= size; i++)
 	{
-		i = 1;
-		while (i <= n)
+		for (j = i; j <= size; j++)
 		{
-			j = n-i;
-			while (j > 0)
+			if (j <= (size - 1))
 			{
 				_putchar(' ');
-				j--;
 			}
-			k = 1;
-			while (k <= 1)
-			{
+			else
 				_putchar('#');
-				k++;
-			}
-			_putchar('\n');
-			i++;
 		}
+		_putchar('\n');
 	}
 }
