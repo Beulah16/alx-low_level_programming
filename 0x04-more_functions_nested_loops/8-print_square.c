@@ -2,11 +2,11 @@
 
 /**
  * print_square - A function
- * @size: parameter to be evaluated
+ * @n: parameter to be evaluated
  *
  * Return: void
  */
-void print_square(int size)
+void print_square(int n)
 {
 	int i;
 	int j;
@@ -14,10 +14,10 @@ void print_square(int size)
 	if (n > 0)
 	{
 		i =0;
-		while (i < size)
+		while (i < n)
 		{
 			j = 0;
-			while (j < size)
+			while (j < n)
 			{
 				_putchar('#');
 				j++;
