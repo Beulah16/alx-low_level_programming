@@ -16,14 +16,15 @@ void rev_string(char *s)
 		size++;
 	}
 
-	char rev[size + 1];
-	rsize = 0;
-	for (i = size - 1; i >= 0; i++)
+	char *rev;
+	*rev = *(s + size - 1);
+	r = 1;
+	for (i = size - 2; i >= 0; i++)
 	{
-		rev[rsize] = s[i];
-		rsize++;
+		*(rev + r) = s[i];
+		r++;
 	}
-	rev[size] = '\0';
+	*(rev + size) = '\0';
 	*s = rev;
 
 	return (0);
