@@ -4,7 +4,7 @@
  * print_rev - A funtion
  * @s: a string to be evaluated
  *
- * Return: 0
+ * Return: void
  */
 void print_rev(char *s)
 {
@@ -21,3 +21,4 @@ void print_rev(char *s)
 		_putchar(s[i]);
 	}
 	_putchar('\n');
+}
