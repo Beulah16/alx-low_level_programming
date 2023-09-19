@@ -10,13 +10,13 @@ void rev_string(char *s)
 {
 	int i;
 	int size;
+	char *rev;
 
 	while (s[size] != '\0')
 	{
 		size++;
 	}
 
-	char *rev;
 	*rev = *(s + size - 1);
 	r = 1;
 	for (i = size - 2; i >= 0; i++)
@@ -25,7 +25,5 @@ void rev_string(char *s)
 		r++;
 	}
 	*(rev + size) = '\0';
-	*s = rev;
-
-	return (0);
+	*s = *rev;
 }
