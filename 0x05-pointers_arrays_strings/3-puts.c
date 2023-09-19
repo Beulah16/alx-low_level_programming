@@ -2,7 +2,7 @@
 
 /**
  * _puts - A function
- * @str - a string to be evaluated
+ * @str: a string to be evaluated
  *
  * Return: nothing
  */
