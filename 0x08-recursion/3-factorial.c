@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "_putchar.c"
+#include "main.h"
 
 /**
  * factorial - a function that returns the factorial of a given number.
