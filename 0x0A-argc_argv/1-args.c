@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main -  a program that prints its name
+ * main -  a program that prints the number of arguments passed into it
  * @argc: a parameter
  * @argv: a parameter
  *
@@ -10,8 +10,8 @@
  */
 int main(int argc, char *argv[])
 {
-	(void)argc;
-	printf("%s\n", argv[0]);
+	(void)argv;
+	printf("%d\n", argc);
 
 	return (0);
 }
