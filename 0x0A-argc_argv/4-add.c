@@ -15,7 +15,6 @@ int main(int argc, char *argv[])
 	int i;
 	int j;
 	int sum;
-	char ch;
 
 	if (argc <= 1)
 	{
