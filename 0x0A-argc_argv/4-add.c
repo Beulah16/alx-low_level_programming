@@ -20,6 +20,7 @@ int main(int argc, char *argv[])
 	{
 
 		printf("0\n");
+		return (0);
 	}
 	else
 	{
@@ -27,7 +28,7 @@ int main(int argc, char *argv[])
 		for (i = 1; i < argc; i++)
 		{
 			j = 0;
-			while (j < strlen(argv[i]))
+			while (j < (int)strlen(argv[i]))
 			{
 				if (!isdigit(argv[i][j]))
 				{
