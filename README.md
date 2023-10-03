@@ -1,2 +1,1 @@
-In a rush
-Alx is so cool
+C is a low level, procedural, programming language
