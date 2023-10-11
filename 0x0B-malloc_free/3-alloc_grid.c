@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-* alloc_grid - a function that allocates memory 
+* alloc_grid - a function that allocates memory
 * for a 2 dimensional array of integers
 * @width: the number of columns of the array
 * @height: the number of rows of the array
