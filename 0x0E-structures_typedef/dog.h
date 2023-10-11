@@ -5,6 +5,8 @@
  * @name: string
  * @age: float
  * @owner: string
+ *
+ * Description: A new type
  */
 
 struct dog
