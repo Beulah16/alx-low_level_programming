@@ -1,5 +1,5 @@
 #include <stdarg.h>
-#include "main.h"
+#include <stdio.h>
 
 /**
  * sum_them_all - a function that returns the sum of it's parameters
@@ -11,11 +11,12 @@
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list argp;
-	int i;
+	unsigned int i;
 	int sum;
 
 	if (n == 0)
 		return (0);
+
 	va_start (argp, n);
 
 	sum = 0;
@@ -25,4 +26,6 @@ int sum_them_all(const unsigned int n, ...)
 	}
 
 	va_end (argp);
+
 	return (sum);
+}
