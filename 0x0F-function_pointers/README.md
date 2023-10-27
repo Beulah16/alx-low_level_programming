@@ -1,1 +1,0 @@
-Poniters to functions
