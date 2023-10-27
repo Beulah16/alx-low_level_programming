@@ -1,1 +1,0 @@
-More allocation of memorires
