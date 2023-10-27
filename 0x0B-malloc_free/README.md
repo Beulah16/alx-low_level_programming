@@ -1,1 +1,0 @@
-Allocating memories dynamically
