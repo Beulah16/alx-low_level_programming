@@ -3,8 +3,8 @@
 
 /**
  * add_node - a function that adds a new node at the beginning of a list_t list
- * head: head of node
- * str: string ponter
+ * @head: head of node
+ * @str: string ponter
  *
  * Return: new list
  */
